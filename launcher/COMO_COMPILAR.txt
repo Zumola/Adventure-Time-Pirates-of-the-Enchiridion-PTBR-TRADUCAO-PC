@@ -1,0 +1,14 @@
+Requisitos: Go 1.23+.
+
+No Windows (Prompt de Comando):
+  set GOOS=windows
+  set GOARCH=amd64
+  go build -trimpath -ldflags="-H=windowsgui -s -w" -o Launcher_PTBR_Hora_de_Aventura.exe .
+
+O launcher usa somente a biblioteca padrão do Go e APIs nativas do Windows.
+Sem dependências externas e sem acesso à internet.
+
+SmartScreen: um EXE novo e sem assinatura digital pode receber o aviso do Windows.
+Isso não pode ser removido legitimamente apenas com código. A forma correta para distribuição pública
+é assinar o executável com um certificado Authenticode confiável e acumular reputação no SmartScreen.
+Um certificado autoassinado não elimina o aviso automaticamente para outras pessoas.
