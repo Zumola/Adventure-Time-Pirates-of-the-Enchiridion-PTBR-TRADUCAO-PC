@@ -168,7 +168,7 @@ Este é um projeto não oficial feito por fãs.
 
 Não possui associação com **Cartoon Network, Outright Games, Climax Studios** ou quaisquer outros detentores dos direitos de Adventure Time ou do jogo.
 
-Nenhum conteúdo deste projeto deve ser vendido.
+Usei ferramentas de IA pra me ajudar em algumas partes técnicas do port. Mas a tradução em si continua sendo a original da MILTRADUÇÕES, feita pelo Denis e 100% revisada na versão de Nintendo Switch. A tradução não foi feita por IA.
 
 ---
 
